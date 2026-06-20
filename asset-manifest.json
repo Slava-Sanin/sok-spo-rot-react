@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sok-spo-rot-react/static/css/main.088b2f1c.css",
+    "main.js": "/sok-spo-rot-react/static/js/main.c6d80399.js",
+    "static/media/banner.png": "/sok-spo-rot-react/static/media/banner.480e556b2db54c4b65af.png",
+    "static/media/arrows4.png": "/sok-spo-rot-react/static/media/arrows4.92ac3ed49c226ceb9763.png",
+    "static/media/spots.png": "/sok-spo-rot-react/static/media/spots.8fd70b05272974f1f128.png",
+    "index.html": "/sok-spo-rot-react/index.html",
+    "main.088b2f1c.css.map": "/sok-spo-rot-react/static/css/main.088b2f1c.css.map",
+    "main.c6d80399.js.map": "/sok-spo-rot-react/static/js/main.c6d80399.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.088b2f1c.css",
+    "static/js/main.c6d80399.js"
+  ]
+}
