@@ -5,7 +5,7 @@ export const
     // Uncomment to use remote host for production
     host = "https://slava-sanin.github.io/sok-spo-rot-react",
     CurPath= window.location.pathname,
-    soundPath = "/static/sound/",
+    soundPath = host + "/static/sound/",
     Backgrounds= {
         //backgroundDefault: host + "/static/backgrounds/grand1.jpg",
         backgroundDefault: host + "/static/images/kandinsky-download-1686290078868.png",
