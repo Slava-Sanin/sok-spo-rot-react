@@ -1,0 +1,76 @@
+.scroll .up {
+    width: 100%;
+    height: 29px;
+    box-sizing: border-box;
+    background: url("../assets/images/up.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #EADCBB;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
+.scroll .down {
+    width: 100%;
+    height: 29px;
+    box-sizing: border-box;
+    background: url("../assets/images/down.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #EADCBB;    
+    cursor: pointer;
+    border: 2px solid gray;
+    position: absolute;
+    bottom: 0;
+}
+
+/* .scroll .tracking {
+    width: 100%;
+    height: 0px;
+} */
+
+.scroll .lev-position {
+    width: 100%;
+    height: 15px;
+    background-color: #EADCBB;
+    background-size: 100% 100%;
+    position: relative;
+    top: -3px;
+}
+
+#tabs-1 .scroll .up {
+    background-image: url("../assets/images/arrow_up.png"), url("../assets/images/Sokoban/sokoban.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: center, -100px 0px;
+}
+
+#tabs-1 .scroll .down {
+    background-image: url("../assets/images/arrow_down.png"), url("../assets/images/Sokoban/sokoban.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: center, -100px 0px;
+}
+
+/* #tabs-1 .scroll .tracking {
+    background: url("../assets/images/scroll_fon.png") no-repeat;
+} */
+
+#tabs-1 .scroll .lev-position {
+    background: url("../assets/images/scroll_sokoban__fon.png");
+    background-position: center;
+}
+
+#tabs-3 .scroll .up {
+    background: url("../assets/images/up.png") no-repeat;
+}
+
+#tabs-3 .scroll .down {
+    background: url("../assets/images/down.png") no-repeat;
+}
+
+/* #tabs-3 .scroll .tracking {
+} */
+
+#tabs-3 .scroll .lev-position {
+    background: url("../assets/images/thumb.png");
+    background-position: center;
+}

@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+/* для скрытия контекстного меню */
+body {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+/* Дополнительные стили, чтобы избежать отображения встроенного контекстного меню браузера */
+body * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.App {
+  border: 1px solid black;
+  width: 617px;
+  /*border: 2px solid #E7D2A5;*/
+  background-color: #EADCBB;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.App-logo {
+  height: 32px;  
+  float: left;
+  left: 230px;
+  position: relative;
+  /*border-radius: 50%;*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+}
+
+@keyframes App-logo-spin {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+
+.App-header {
+  background: linear-gradient(to right, darkblue, #4B9BC6);
+  height: 32px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  /*border-bottom-left-radius: 50%;*/
+  /*border-bottom-right-radius: 50%;*/
+
+}
+
+.App-header-p {
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  /* border: 2px solid red;     */
+}
+
+.App-link {
+  color: yellow;  
+  text-decoration: none;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  /*width: 621px;
+  margin: 0 auto;
+  border: 2px solid #E7D2A5;
+  background-color: #EADCBB;
+  overflow: hidden;
+  position: relative;*/
+}
+
+.wrapper hr {
+  color: #E7D2A5;
+  margin: 0 0 4px 0;
+  height: 2px;
+  background-color: #E7D2A5;
+}
+
+.main-window {
+  background-size: 100% 100% !important;
+  margin-top: 6px;
+}
+
+.separator1 {
+  width: 0;
+  height: 46px;
+  border-right: 2px solid #8B8B8B;
+  border-left: 2px solid #F4F4F4;
+  position: relative;
+  top: 23px;
+  margin-left: 6px;
+  display: inline-block;
+}
+
+.mytooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #fffbcc;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 5px;
+  padding-bottom: 2px;
+  margin-top: 25px;
+  position: absolute;
+  z-index: 200;
+  line-height: 1.5;
+}
+
+button:hover .mytooltiptext {
+  visibility: visible;
+  margin-top: 50px;
+}
+
+#toolbar-switch:hover .mytooltiptext {
+  right: 10px;
+  top: -75px;
+}
+
+#virtual_move:hover .mytooltiptext {
+  visibility: visible;
+  right: 10px;
+  top: -20px;
+}
+
+#virtual_move > span.mytooltiptext {
+  left: -20px;
+}
+
+#IDM_Edit:hover .mytooltiptext,
+#IDM_Help:hover .mytooltiptext,
+#IDM_Exit:hover .mytooltiptext {	
+  visibility: visible;
+}
+
+/*----------------------------------------------*/
+
+.footer {
+text-align: center;
+font-size: 10pt;
+width: 100%;	
+}
+
+.footer p {
+  padding: 6px;
+  margin: 0;
+  line-height: 1.3rem;
+  top: -2px;
+  position: relative;
+}
+
+/*----------------------------------------------*/
+
+.react-tabs__tab-list {
+  margin: 0;
+}
+
+.react-tabs__tab {
+  bottom: -6px;
+  font-family: 'Benne', serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.react-tabs__tab--selected {
+  background: none;
+  /*border-color: #97FF97;*/
+  /*border-color: #aaa;*/
+  color: crimson; /*black;*/
+  border-radius: 5px 5px 0 0;
+  left: 8px;
+  border: 5px solid #97FF97;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+
+li#tab\:r0\:0 {
+  margin-left: 15px;
+}
+
+/*----------------------------------------------*/
+/*Матовое стекло на CSS*/
+body {
+  /*background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;*/
+  /*background: url(http://localhost:3000/static/images/kandinsky-download-1686260629023.png) no-repeat;*/
+  /*background: url("../public/static/images/kandinsky-download-1686260629023.png") no-repeat;*/
+  /* Keep the inherited background full size. */
+  background-attachment: fixed;
+  /*background-size: cover;*/
+  background-size: contain;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+}
+
+.App {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  /*border-radius: 5px;*/
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.App:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.protector {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*background-color: rgb(55, 55, 55, .7);*/
+  /*border: 2px solid red;*/
+  box-sizing: border-box;
+  z-index: 200;
+  cursor: wait;
+}
+
+.banner {
+  position: absolute;
+  z-index: 300;
+  background: url("./assets/images/banner.png") no-repeat center;
+  width: -webkit-fill-available; /*450px;*/
+  height: 230px;
+  /*background-size: 100% 100%;*/
+  top: 30%;
+  font-size: 22pt;
+  color: sandybrown; /*gainsboro;*/
+  /*display: flex;*/
+  /*display: grid;*/
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Benne', serif;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+div.banner > div:nth-child(1) {
+  margin-top: 75px;
+}
+
+div.banner > div:nth-child(2) {
+  top: -7px;
+  position: relative;
+}
+
+div.banner button {
+  color: yellow;
+  background: darkred;
+  font-size: initial;
+  text-align: center;
+  padding: 3px;
+  margin: 10px;
+  width: 40px;
+}
+

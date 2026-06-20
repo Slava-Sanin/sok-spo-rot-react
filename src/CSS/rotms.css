@@ -1,0 +1,88 @@
+/****************************** Rotms ************************************/
+
+/* .div-rot-Z {
+    background: url("../assets/images/Rotms/rotms.png") 0 0 no-repeat;
+} */
+
+.div-rot-0 {
+    background: url("../assets/images/Rotms/rotms.png") 0 0 no-repeat;
+}
+
+.div-rot-1 {
+    background: url("../assets/images/Rotms/rotms.png") -25px 0 no-repeat;
+}
+
+.div-rot-2 {
+    background: url("../assets/images/Rotms/rotms.png") -50px 0 no-repeat;
+}
+
+.div-rot-3 {
+    background: url("../assets/images/Rotms/rotms.png") -75px 0 no-repeat;
+}
+
+.div-rot-4 {
+    background: url("../assets/images/Rotms/rotms.png") -100px 0 no-repeat;
+}
+
+.div-rot-5 {
+    background: url("../assets/images/Rotms/rotms.png") -125px 0 no-repeat;
+}
+
+.div-rot-S {
+    background: url("../assets/images/Rotms/rotms.png") -150px 0 no-repeat;
+}
+
+.div-rot-Y {
+    background: url("../assets/images/Rotms/rotms.png") -175px 0 no-repeat;
+}
+
+.div-rot-B {
+    background: url("../assets/images/Rotms/rotms.png") -200px 0 no-repeat;
+}
+
+.div-rot-G {
+    background: url("../assets/images/Rotms/rotms.png") -225px 0 no-repeat;
+}
+
+.div-rot-K {
+    background: url("../assets/images/Rotms/rotms.png") -250px 0 no-repeat;
+}
+
+.div-rot-R {
+    background: url("../assets/images/Rotms/rotms.png") -275px 0 no-repeat;
+}
+
+.div-rot-Z,.div-rot-0,.div-rot-1,.div-rot-2,.div-rot-3,.div-rot-4,.div-rot-5,
+.div-rot-S,.div-rot-Y,.div-rot-B,.div-rot-G,.div-rot-K,.div-rot-R {
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+.div-rot-1,.div-rot-2,.div-rot-3,.div-rot-4,.div-rot-5 {
+    cursor: pointer;
+}
+
+/*************************** End Rotms *********************************/
+
+.div-rot-1:hover {
+    background: url("../assets/images/Rotms/rotms.png") -25px -25px no-repeat;
+}
+
+.div-rot-2:hover {
+    background: url("../assets/images/Rotms/rotms.png") -50px -25px no-repeat;
+}
+
+.div-rot-3:hover {
+    background: url("../assets/images/Rotms/rotms.png") -75px -25px no-repeat;
+}
+
+.div-rot-4:hover {
+    background: url("../assets/images/Rotms/rotms.png") -100px -25px no-repeat;
+}
+
+.div-rot-5:hover {
+    background: url("../assets/images/Rotms/rotms.png") -125px -25px no-repeat;
+}
+
+

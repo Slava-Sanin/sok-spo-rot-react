@@ -1,0 +1,89 @@
+.toolbar {
+    /*background-color: #EADCBB;*/
+    /*margin: 0 4px 3px 4px;*/
+    height: 54px;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: relative;
+    /*opacity: 0.8;*/
+}
+
+.toolbar button {
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    margin-right: 2px;
+    cursor: pointer;
+    padding: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-image: initial;
+    border-radius: 10px;
+}
+
+.toolbar button > span {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.toolbar #btn-sokoban {
+    background: url("../assets/images/bigtool22.png") 2px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-spot {
+    background: url("../assets/images/bigtool22.png") -38px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-rotms {
+    background: url("../assets/images/bigtool22.png") -78px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-sound {
+    margin-left: 13px;
+    /*margin-right: 4px;*/
+}
+
+.sound {
+    background: url("../assets/images/bigtool22.png") -158px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.no-sound {
+    background: url("../assets/images/no_sound.png") 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-save {
+    background: url("../assets/images/bigtool22.png") -198px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-new {
+    background: url("../assets/images/bigtool22.png") -238px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-finish {
+    background: url("../assets/images/bigtool22.png") -318px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #btn-undo {
+    background: url("../assets/images/bigtool22.png") -358px 2px no-repeat;
+    background-clip: content-box;
+}
+
+.toolbar #toolbar-switch {
+    background-color: white;
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin: 8px;
+    margin-top: 3px;
+    border-radius: 50%;
+}

@@ -1,0 +1,58 @@
+#status_sokoban,
+#status_spot,
+#status_rotms {
+    line-height: 1.5rem;
+    padding: 3px;
+    display: flex;
+    /*color: greenyellow;*/
+    font-family: 'Benne', serif;
+    font-weight: bolder;
+    font-size: 13pt;
+    text-align: center;
+    /*font-weight: 600;*/
+    letter-spacing: 1px;
+}
+
+#status_sokoban .time,
+#status_sokoban .level,
+#status_sokoban .moves,
+#status_spot .time,
+#status_spot .player,
+#status_rotms .time,
+#status_rotms .level,
+#status_rotms .moves,
+#status_rotms .score {
+    height: auto;
+    width: auto;
+    float: left;
+    border-top: solid gray 1px;
+    border-bottom: solid white 1px;
+    border-left: solid gray 2px;
+    border-right: solid white 2px;
+    flex: auto;
+    padding: 4px;
+    padding-bottom: 0;
+}
+
+/******/
+
+.status {
+    height: 25px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    padding-left: 0;
+    line-height: 25px;
+    /*line-height: -moz-block-height;*/
+    text-align: center;
+    z-index: 20;
+    background-color: #EADCBB;
+}
+
+div.time > span:nth-child(2),
+div.time > span:nth-child(4),
+div.time > span:nth-child(6) {
+    top: 2px;
+    position: relative;
+}

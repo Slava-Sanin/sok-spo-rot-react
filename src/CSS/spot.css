@@ -1,0 +1,72 @@
+/*************************** Spot ************************************/
+.div-spo-Z {
+    background: url("../assets/images/Spot/spots.png") -80px 0 no-repeat;
+}
+
+.div-spo-0 {
+    background: url("../assets/images/Spot/spots.png") 0 0 no-repeat;
+}
+
+.div-spo-2 {
+    background: url("../assets/images/Spot/spots.png") -80px -80px no-repeat;
+}
+
+.div-spo-2big {
+    background: url("../assets/images/Spot/spots.png") 0px -80px no-repeat;
+}
+
+.div-spo-3 {
+    background: url("../assets/images/Spot/spots.png") -80px -120px no-repeat;
+}
+
+.div-spo-3big {
+    background: url("../assets/images/Spot/spots.png") 0px -120px no-repeat;
+}
+
+.div-spo-4 {
+    background: url("../assets/images/Spot/spots.png") -80px -160px no-repeat;
+}
+
+.div-spo-4big {
+    background: url("../assets/images/Spot/spots.png") 0px -160px no-repeat;
+}
+
+.div-spo-5 {
+    background: url("../assets/images/Spot/spots.png") -80px -200px no-repeat;
+}
+
+.div-spo-5big {
+    background: url("../assets/images/Spot/spots.png") 0px -200px no-repeat;
+}
+
+.div-spo-6 {
+    background: url("../assets/images/Spot/spots.png") -80px -240px no-repeat;
+}
+
+.div-spo-6big {
+    background: url("../assets/images/Spot/spots.png") 0px -240px no-repeat;
+}
+
+.div-spo-Z,
+.div-spo-0,
+.div-spo-2,.div-spo-2big,
+.div-spo-3,.div-spo-3big,
+.div-spo-4,.div-spo-4big,
+.div-spo-5,.div-spo-5big,
+.div-spo-6,.div-spo-6big {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.div-spo-Z,
+.div-spo-2,.div-spo-2big,
+.div-spo-3,.div-spo-3big,
+.div-spo-4,.div-spo-4big,
+.div-spo-5,.div-spo-5big,
+.div-spo-6,.div-spo-6big {
+    cursor: pointer;
+}
+
+
+/*************************** End Spot *********************************/

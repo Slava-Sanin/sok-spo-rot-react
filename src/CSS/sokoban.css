@@ -1,0 +1,34 @@
+/*************************** Sokoban ************************************/
+
+/* .div-sok-Z {
+    background: url("../assets/images/Sokoban/sokoban.png") 0 0 no-repeat;
+} */
+
+.div-sok-1 {
+    background: url("../assets/images/Sokoban/sokoban.png") -25px 0 no-repeat;
+}
+
+.div-sok-2 {
+    background: url("../assets/images/Sokoban/sokoban.png") -50px 0 no-repeat;
+}
+
+.div-sok-3 {
+    background: url("../assets/images/Sokoban/sokoban.png") -75px 0 no-repeat;
+}
+
+.div-sok-4 {
+    background: url("../assets/images/Sokoban/sokoban.png") -100px 0 no-repeat;
+}
+
+.div-sok-5 {
+    background: url("../assets/images/Sokoban/sokoban.png") -125px 0 no-repeat;
+}
+
+.div-sok-Z,.div-sok-1,.div-sok-2,.div-sok-3,.div-sok-4,.div-sok-5 {
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+/*************************** End Sokoban *********************************/
+

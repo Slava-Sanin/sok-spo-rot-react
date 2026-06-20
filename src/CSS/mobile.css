@@ -1,0 +1,19 @@
+html {-webkit-text-size-adjust: none;}
+
+@media (max-width: 630px) {
+    body {
+        /*background: none;*/
+        /*background-color: lightblue !important;*/
+        min-width: 620px;
+        padding: 0;
+    }
+
+    .App {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: unset;
+    }
+
+}
